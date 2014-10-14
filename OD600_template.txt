@@ -1,0 +1,122 @@
+##BLOCKS= 4          
+Plate:	Plate#1	1.1	TimeFormat	Endpoint	Absorbance	Raw	FALSE	1						1	600	1	12	96	
+	Temperature(¡C)	A1	A2	A3	A4	A5	A6	A7	A8	A9	A10	A11	A12	B1	B2	B3	B4	B5	B6	B7	B8	B9	B10	B11	B12	C1	C2	C3	C4	C5	C6	C7	C8	C9	C10	C11	C12	D1	D2	D3	D4	D5	D6	D7	D8	D9	D10	D11	D12	E1	E2	E3	E4	E5	E6	E7	E8	E9	E10	E11	E12	F1	F2	F3	F4	F5	F6	F7	F8	F9	F10	F11	F12	G1	G2	G3	G4	G5	G6	G7	G8	G9	G10	G11	G12	H1	H2	H3	H4	H5	H6	H7	H8	H9	H10	H11	H12	
+	24.40	0.7745	0.7624	0.7884	0.7951	0.7794	0.782	0.7802	0.7578	0.7967	0.7446	0.77	0.781	0.7429	0.7732	0.7626	0.7951	0.7844	0.7621	0.7861	0.7634	0.7708	0.7803	0.7341	0.8034	0.7897	0.7748	0.7775	0.7705	0.7557	0.7984	0.7811	0.7719	0.7812	0.7454	0.7866	0.8007	0.7472	0.7789	0.7773	0.7652	0.7642	0.7619	0.8204	0.746	0.7899	0.7548	0.78	0.7818	0.7898	0.7543	0.7679	0.7807	0.7702	0.7558	0.7973	0.827	0.7965	0.788	0.7837	0.773	0.768	0.7572	0.7736	0.7708	0.7706	0.8164	0.7983	0.7813	0.7873	0.7518	0.7879	0.8055	0.7497	0.7725	0.8022	0.8007	0.7577	0.7832	0.8117	0.7929	0.7733	0.781	0.7998	0.7693	0.8062	0.7861	0.8004	0.8127	0.7943	0.8	0.8042	0.8068	0.8096	0.8187	0.7981	0.8042	
+
+	Temperature(¡C)	A1	A2	A3	A4	A5	A6	A7	A8	A9	A10	A11	A12	B1	B2	B3	B4	B5	B6	B7	B8	B9	B10	B11	B12	C1	C2	C3	C4	C5	C6	C7	C8	C9	C10	C11	C12	D1	D2	D3	D4	D5	D6	D7	D8	D9	D10	D11	D12	E1	E2	E3	E4	E5	E6	E7	E8	E9	E10	E11	E12	F1	F2	F3	F4	F5	F6	F7	F8	F9	F10	F11	F12	G1	G2	G3	G4	G5	G6	G7	G8	G9	G10	G11	G12	H1	H2	H3	H4	H5	H6	H7	H8	H9	H10	H11	H12	
+		0.7745	0.7624	0.7884	0.7951	0.7794	0.782	0.7802	0.7578	0.7967	0.7446	0.77	0.781	0.7429	0.7732	0.7626	0.7951	0.7844	0.7621	0.7861	0.7634	0.7708	0.7803	0.7341	0.8034	0.7897	0.7748	0.7775	0.7705	0.7557	0.7984	0.7811	0.7719	0.7812	0.7454	0.7866	0.8007	0.7472	0.7789	0.7773	0.7652	0.7642	0.7619	0.8204	0.746	0.7899	0.7548	0.78	0.7818	0.7898	0.7543	0.7679	0.7807	0.7702	0.7558	0.7973	0.827	0.7965	0.788	0.7837	0.773	0.768	0.7572	0.7736	0.7708	0.7706	0.8164	0.7983	0.7813	0.7873	0.7518	0.7879	0.8055	0.7497	0.7725	0.8022	0.8007	0.7577	0.7832	0.8117	0.7929	0.7733	0.781	0.7998	0.7693	0.8062	0.7861	0.8004	0.8127	0.7943	0.8	0.8042	0.8068	0.8096	0.8187	0.7981	0.8042	
+~End
+Group:	Standards	1
+Sample	Concentration	Wells	BackConcCalc	Values	MeanValue	Std.Dev.	CV%
+
+Smallest standard value:  
+
+Largest standard value:  
+
+~End
+Group:	Controls	1
+Sample	Wells	Sample#	Values	MeanValue
+
+~End
+Group:	Samples	1
+Sample	Wells	Values	Outliers	Result	MeanResult	Std.Dev.	CV%
+Sa01	A1	0.775	Outlier	NoFit	NoFit	NoFit	NoFit
+	A2	0.762	Outlier	NoFit			
+	A3	0.788	Outlier	NoFit			
+	A4	0.795	Outlier	NoFit			
+	A5	0.779	Outlier	NoFit			
+	A6	0.782	Outlier	NoFit			
+	A7	0.780	Outlier	NoFit			
+	A8	0.758	Outlier	NoFit			
+	A9	0.797	Outlier	NoFit			
+	A10	0.745	Outlier	NoFit			
+	A11	0.770	Outlier	NoFit			
+	A12	0.781	Outlier	NoFit			
+	B1	0.743	Outlier	NoFit			
+	B2	0.773	Outlier	NoFit			
+	B3	0.763	Outlier	NoFit			
+	B4	0.795	Outlier	NoFit			
+	B5	0.784	Outlier	NoFit			
+	B6	0.762	Outlier	NoFit			
+	B7	0.786	Outlier	NoFit			
+	B8	0.763	Outlier	NoFit			
+	B9	0.771	Outlier	NoFit			
+	B10	0.780	Outlier	NoFit			
+	B11	0.734	Outlier	NoFit			
+	B12	0.803	Outlier	NoFit			
+	C1	0.790	Outlier	NoFit			
+	C2	0.775	Outlier	NoFit			
+	C3	0.778	Outlier	NoFit			
+	C4	0.771	Outlier	NoFit			
+	C5	0.756	Outlier	NoFit			
+	C6	0.798	Outlier	NoFit			
+	C7	0.781	Outlier	NoFit			
+	C8	0.772	Outlier	NoFit			
+	C9	0.781	Outlier	NoFit			
+	C10	0.745	Outlier	NoFit			
+	C11	0.787	Outlier	NoFit			
+	C12	0.801	Outlier	NoFit			
+	D1	0.747	Outlier	NoFit			
+	D2	0.779	Outlier	NoFit			
+	D3	0.777	Outlier	NoFit			
+	D4	0.765	Outlier	NoFit			
+	D5	0.764	Outlier	NoFit			
+	D6	0.762	Outlier	NoFit			
+	D7	0.820	Outlier	NoFit			
+	D8	0.746	Outlier	NoFit			
+	D9	0.790	Outlier	NoFit			
+	D10	0.755	Outlier	NoFit			
+	D11	0.780	Outlier	NoFit			
+	D12	0.782	Outlier	NoFit			
+	E1	0.790	Outlier	NoFit			
+	E2	0.754	Outlier	NoFit			
+	E3	0.768	Outlier	NoFit			
+	E4	0.781	Outlier	NoFit			
+	E5	0.770	Outlier	NoFit			
+	E6	0.756	Outlier	NoFit			
+	E7	0.797	Outlier	NoFit			
+	E8	0.827	Outlier	NoFit			
+	E9	0.797	Outlier	NoFit			
+	E10	0.788	Outlier	NoFit			
+	E11	0.784	Outlier	NoFit			
+	E12	0.773	Outlier	NoFit			
+	F1	0.768	Outlier	NoFit			
+	F2	0.757	Outlier	NoFit			
+	F3	0.774	Outlier	NoFit			
+	F4	0.771	Outlier	NoFit			
+	F5	0.771	Outlier	NoFit			
+	F6	0.816	Outlier	NoFit			
+	F7	0.798	Outlier	NoFit			
+	F8	0.781	Outlier	NoFit			
+	F9	0.787	Outlier	NoFit			
+	F10	0.752	Outlier	NoFit			
+	F11	0.788	Outlier	NoFit			
+	F12	0.806	Outlier	NoFit			
+	G1	0.750	Outlier	NoFit			
+	G2	0.773	Outlier	NoFit			
+	G3	0.802	Outlier	NoFit			
+	G4	0.801	Outlier	NoFit			
+	G5	0.758	Outlier	NoFit			
+	G6	0.783	Outlier	NoFit			
+	G7	0.812	Outlier	NoFit			
+	G8	0.793	Outlier	NoFit			
+	G9	0.773	Outlier	NoFit			
+	G10	0.781	Outlier	NoFit			
+	G11	0.800	Outlier	NoFit			
+	G12	0.769	Outlier	NoFit			
+	H1	0.806	Outlier	NoFit			
+	H2	0.786	Outlier	NoFit			
+	H3	0.800	Outlier	NoFit			
+	H4	0.813	Outlier	NoFit			
+	H5	0.794	Outlier	NoFit			
+	H6	0.800	Outlier	NoFit			
+	H7	0.804	Outlier	NoFit			
+	H8	0.807	Outlier	NoFit			
+	H9	0.810	Outlier	NoFit			
+	H10	0.819	Outlier	NoFit			
+	H11	0.798	Outlier	NoFit			
+	H12	0.804	Outlier	NoFit			
+
+Outlier - Outside standard range  
+
+~End
