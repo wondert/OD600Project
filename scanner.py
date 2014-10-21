@@ -31,9 +31,14 @@ destination = r'{}.txt'.format(outputfile)
 new = open(destination, 'a')
 test = r'{}'.format(inputfile)
 for line in open(test):
-	if line.split()[col_i] != y:
+	try:
+		if line.split()[col_i] != y:
+	except IndexError:
+		break
+	else:
 		new.write(line)
-new.close()
+else:
+	new.close()
 print('')
 print('x'*60)
 print('x'*60)
